@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title> <!--Titulo do site-->
+
+    <link rel="stylesheet" href="style.css"> <!--Linka o html ao css-->
+
+</head>
+<body>
+    <nav> <!--Botões de navegação do site-->
+    <a href="#home"> <button>Home</button></a> <!--os href's fazem um link aos ids de cada section da página-->
+    <a href="#formacao"><button>Formação</button></a>
+    <a href="#sobremim"><button>Sobre mim</button></a>
+    <a href="#contato"><button>Contato</button></a>
+    </nav>
+
+<!--Section com meu cabeçalho falando sobre mim-->
+ <section id="sobremim"  
+        class="cabecalho">
+        <h1 class="titulo1" id="home">UM POUCO SOBRE MIM</h1>  <!--titulo da section-->
+        <span class="textoimg"> <!--Span com link de uam foto minha e o texto sobre mim-->
+            <p><img src="imagens/Imagem do WhatsApp de 2023-10-06 à(s) 08.31.11_df501962.jpg" alt="fotolinda"></p>
+            <p class="sub">Olá eu me chamo Hantony Ryan e tenho 20 anos ! <br> Eu devo dizer que até pouco tempo atrás eu nem imagina que teria tanto gosto por uma carreia na aréa de TI eu literalmente entrei por impulso no curso de ADS e olha só, eu ADOREI e desde então eu tenho me empenhado pra alcançar um futuro em que eu trabalho da área. Sobre meus hobbies eu passo emu tempo livre desenhando ou vendo anime.</p>   
+        </span>
+</section>
+ 
+<!--Section sobre meu portifólio -->
+<section class="portifolio2">
+    <h1 class="titulo4">PORTIFÓLIO</h1> <!--titulo da section-->
+    <pc class="teste">Eu sou mais um dentre os outros que cairam de paraquedas no mundo da programação então eu não tenho nenhum projeto da minha autoria, 
+        estou realmente aprendendo agora e n meu Git tem somente um trabalho de uma matéria passada sobre java.
+    Saiba mais: <a href="https://github.com/hantonyrDev?tab=repositories"><button>PORTIFÓLIO</button></a></p> <!--Link que redireciona ao meu GitHub-->
+</section>
+
+<!--Section sobre minhas "habilidades atuais"-->
+<section class="formacao">
+    <h1 class="titulo2" id="formacao">FORMAÇÃO</h1> <!--com titulo da section-->
+    <p class="sub">Altualmente cursando Análise de Desenvolvimento de Sistemas <br> <!--Tudo foi colocado dentro de um paragrafo-->
+        Cursando Front-Master oferecido pelo Dev Samurai <br>
+        Também cursando um curso de introdução ao Java
+    </p>
+</section>
+<!--Section da parte de contato-->
+<section id="contato" class="Contato"> 
+    <form>
+        <h1 class="titulo3">FALE COMIGO</h1>
+        <input placeholder="seu e-mail" type="email"> 
+        <input placeholder="sua senha:" type="password">
+        <input placeholder="seu telefone:" type="tel"> 
+        <textarea style="resize: none;" placeholder="Quer dizer alguma coisa ?" id="" cols="30" rows="10"></textarea> <!--Caixa de mensagem - o "resize: none impede o usuário de dimensionar o tamanho da caixa "-->
+        <button>Enviar</button>
+    </form>
+</section>
+
+<footer> <!--Rodapé com um texto simples-->
+    <h3>@HantonyDev</h3>
+</footer>
+</body>
+</html>

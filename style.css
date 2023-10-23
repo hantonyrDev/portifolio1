@@ -1,0 +1,131 @@
+body{
+    background: linear-gradient(rgb(29, 32, 43), rgb(69, 69, 234)); /*muda a cor de fundo da página*/
+}
+
+/*Se eu for explicar linha por linha vai entrar como exagero entt so vou diver para que serve cada style*/ 
+
+button { /*Style referente aos botões de navegação da página: tamanho, cores, posicionamento, fonte e borda*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100px; 
+    padding: 5px;
+    border: 1px outset rgb(255, 255, 255) ;
+    border-radius: 5px;
+    background: rgb(44, 48, 99);    
+    justify-content: center;
+}
+
+nav { /*Style referente a barra superior onde os botões ficam fixados: cor de fundo, espaçamente e posicionamento*/
+    background-color: rgb(22, 17, 66);
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    left:  0;
+    top: 0;
+    padding: 10px;
+}
+
+button:hover { /*Um comando simples para que os botões mudem de cor ao passar o mouse o por cima*/
+    background-color: rgb(243, 221, 221);
+        color: rgb(102, 98, 242);
+
+}
+
+.cabecalho{ /*Referente a primeira section: borda, espaçamento e cor fundo*/
+    padding: 100px;
+    border: 1px outset black;
+    border-radius: 20px;
+    background-color: rgb(76, 78, 237);
+
+}
+
+img{ /*Referente a borda da imagem da primeira section: largura e aredondamento de borda*/
+    width: 200px;
+    border-radius: 10px;
+}
+
+.formacao{ /*Referente a section de formação: borda, arrendamento, alinahmento de texto e espaçamento*/
+    border: 1px outset black ;
+    border-radius: 20px;
+    background-color: rgb(84, 84, 252);
+    padding: 100px;
+    text-align: center;
+    color: aliceblue;
+    
+    
+}
+
+.titulo1{ /*Posicionamento, cor e fonte do Titulo "Um pouco Sobre Mim"*/
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+.titulo2{ /*Fonte e tamanho de fonte do titulo "Formação"*/
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span { /*Referente a imagem e texto da section "Um pouco Sobre mim: posicionamento, fonte e cor"*/
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.portifoliob button{ /*Referente ao botão de "POrtifólio" fonte e tamanho de fonte*/
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section { /*Referente ao enquadamento das sections da página: posicionamento e espaçamento*/
+    width: 50%;
+    max-width: 1280px;
+    margin: 70px auto 20px auto;
+}
+form{ /*Referente a caixa da section "Contato": Dimensonamento, posicionamento, borda,aredondamento de borda e cor de fundo*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px outset;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: center;
+    background-color: rgb(88, 96, 243);
+    border-radius: 15px;
+}
+.titulo3{ /*Referente ao titulo de "Fale comigo": tamanho, alinhamento, fonte e cor*/
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.portifolio2{ /*Referente a section do "Portifólio": borda, cor de fundo, largura e arrendomento de borda*/
+    border: 1px outset;
+    background-color: rgb(88, 96, 243);
+    border-radius: 20px;
+    width: 61%;
+
+}
+
+.titulo4{ /*Referente o titulo de "Portifólio": centralização, fonte e cor*/
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+ .sub{ /*Referente ao texto de formação: fonte, cor de fonte,tamanho de fonte, posicionamento, e espaçamento*/
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+ }
+h3{ /*Referente ao Rodapé: fonte, tamanho de fonte, cor de fonte e centralização*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+    text-align: center;
+   
+    
+}
